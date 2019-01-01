@@ -1,0 +1,41 @@
+{
+	"homepage": "https://markhuang0521.github.io/ToDO-App",
+	"name": "basic",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"build": "webpack ",
+		"server": "webpack-dev-server",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "XiaoMing Huang",
+	"license": "ISC",
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"css-loader": "^0.28.4",
+		"gh-pages": "^2.0.1",
+		"i": "^0.3.6",
+		"node-sass": "^4.11.0",
+		"normalize.css": "^8.0.1",
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3",
+		"react-modal": "^2.2.2",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.18.2",
+		"validator": "^10.9.0",
+		"webpack": "^4.26.1",
+		"webpack-dev-server": "^3.1.10"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-class-properties": "^7.2.1",
+		"webpack-cli": "^3.1.2"
+	}
+}

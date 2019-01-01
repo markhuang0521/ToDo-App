@@ -1,0 +1,25 @@
+.header {
+	// text-align: center;
+	background: $off-black;
+	color: white;
+	margin-bottom: $s-size;
+	padding: $s-size, 0;
+}
+
+@media (min-width: $desktop-size) {
+	.header {
+		margin-bottom: $l-size;
+	}
+}
+
+.header__title {
+	margin: 0;
+	font-size: $m-size;
+}
+
+.header__subtitle {
+	margin-top: 1rem;
+	color: $off-white;
+	font-size: $s-size;
+	font-weight: 500;
+}

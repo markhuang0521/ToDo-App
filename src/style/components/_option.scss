@@ -1,0 +1,45 @@
+.option {
+	display: flex;
+	justify-content: space-between;
+	padding: $s-size;
+	width: 90%;
+	border-bottom: 1px solid lighten(#464b5e, 20%);
+}
+
+.option__text {
+	word-break: break-all;
+	color: white;
+	font-weight: 500;
+	font-size: 1.9rem;
+	margin: 0;
+}
+
+.option-error {
+	color: $off-white;
+	font-style: italic;
+	padding: 0 $l-size;
+}
+
+.add-option {
+	display: flex;
+	flex-direction: column;
+	padding: $s-size;
+}
+.option-input {
+	flex-grow: 0.9;
+	background: $dark-blue;
+	border: none;
+	color: white;
+	border-bottom: 0.5px solid darken($dark-blue, 10%);
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+@media (min-width: $desktop-size) {
+	.add-option {
+		flex-direction: row;
+	}
+	.option-input {
+		margin: 0 $s-size 0 $s-size;
+	}
+}
